@@ -1,4 +1,4 @@
-# Softuni course: [CSharp-OPP-Advanced]()
+# Softuni course: [CSharp-OPP-Advanced](https://softuni.bg/trainings/1843/csharp-oop-advanced-march-2018#lesson-7720)
 SoftUni course CSharp OOP Advanced - March 2018: All tasks with their solutions.
 
 ## Course content:
