@@ -2,12 +2,23 @@
 SoftUni course CSharp OOP Advanced - March 2018: All tasks with their solutions.
 
 ## Course content:
+- SOLID Principles
+- Generics
+- Iterators and Comparators
+- Reflection and Attributes
+- Unit Testing
+- Object Communication and Events
 
 ## Repository content:
-Tasks							| Labs																																| Exercises																																	
---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------------
+Tasks								| Labs																														| Exercises																																	
+------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------
+SOLID Principles                    |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/01.SOLID-Lab)									|[Exercises]()
+Generics                            |[Lab]()									|[Exercises]()
+Iterators and Comparators           |[Lab]()									|[Exercises]()
+Reflection and Attributes           |[Lab]()									|[Exercises]()
+Unit Testing                        |[Lab]()									|[Exercises]()
+Object Communication and Events		|[Lab]()									|[Exercises]()
 
-
-### [Resources]()
+### [Resources](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources)
 
 ### [Exam - 22 April 2018]
