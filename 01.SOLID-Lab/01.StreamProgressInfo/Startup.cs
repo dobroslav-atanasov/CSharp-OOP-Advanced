@@ -8,9 +8,12 @@
     {
         public static void Main()
         {
-            StreamProgressInfo firstStreamProgressInfo = new StreamProgressInfo(new File("ABBA", 125, 10));
-            StreamProgressInfo secondStreamProgressInfo =
-                new StreamProgressInfo(new Music("Queen", "The Game", 1000, 220));
+            File file = new File("ABBA", 125, 10);
+            Music music = new Music("Queen", "The Game", 1000, 220);
+
+            StreamProgressInfo firstStreamProgressInfo = new StreamProgressInfo(file);
+            StreamProgressInfo secondStreamProgressInfo = new StreamProgressInfo(music);
+
             Console.WriteLine(firstStreamProgressInfo.CalculateCurrentPercent());
             Console.WriteLine(secondStreamProgressInfo.CalculateCurrentPercent());
         }
