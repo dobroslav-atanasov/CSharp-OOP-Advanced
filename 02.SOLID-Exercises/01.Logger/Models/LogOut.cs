@@ -27,7 +27,7 @@
 
         private int GetMessageSum(string formatMessage)
         {
-            int sum = formatMessage.Where(c => char.IsDigit(c)).Sum(c => c);
+            int sum = formatMessage.Where(c => char.IsLetter(c)).Sum(c => c);
             return sum;
         }
     }
