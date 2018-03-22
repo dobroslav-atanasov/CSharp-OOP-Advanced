@@ -13,7 +13,7 @@ SoftUni course CSharp OOP Advanced - March 2018: All tasks with their solutions.
 Tasks								| Labs																														| Exercises																																	
 ------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------
 SOLID Principles                    |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/01.SOLID-Lab)									|[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/02.SOLID-Exercises)
-Generics                            |[Lab]()									|[Exercises]()
+Generics                            |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/03.Generics-Lab)								|[Exercises]()
 Iterators and Comparators           |[Lab]()									|[Exercises]()
 Reflection and Attributes           |[Lab]()									|[Exercises]()
 Unit Testing                        |[Lab]()									|[Exercises]()
