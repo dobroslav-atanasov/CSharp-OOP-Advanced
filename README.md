@@ -20,6 +20,7 @@ Unit Testing                        |[Lab]()									|[Exercises]()
 Object Communication and Events		|[Lab]()									|[Exercises]()
 
 - Workshop
+=============
 
 - Exam Preparation I: C# OOP Advance Exam 20.08.2017 - Description
 - Exam Preparation II: C# OOP Advance Exam 07.09.2017 - Description
