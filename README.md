@@ -14,7 +14,7 @@ Tasks								| Labs																														| Exercises
 ------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------
 SOLID Principles                    |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/01.SOLID-Lab)									|[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/02.SOLID-Exercises)
 Generics                            |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/03.Generics-Lab)								|[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/04.Generics-Exercises)
-Iterators and Comparators           |[Lab]()									|[Exercises]()
+Iterators and Comparators           |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/05.IteratorsAndComparators-Lab)				|[Exercises]()
 Reflection and Attributes           |[Lab]()									|[Exercises]()
 Unit Testing                        |[Lab]()									|[Exercises]()
 Object Communication and Events		|[Lab]()									|[Exercises]()
