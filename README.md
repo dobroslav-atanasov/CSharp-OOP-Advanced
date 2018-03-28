@@ -16,7 +16,7 @@ SoftUni course CSharp OOP Advanced - March 2018: All tasks with their solutions.
 
 ## Repository content:
 
-> Homeworks
+> **Homeworks**
 
 Tasks								| Labs																														| Exercises																															|Progress																														
 ------------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------:
@@ -27,17 +27,18 @@ Tasks								| Labs																														| Exercises																				
 **Unit Testing**                    |~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
 **Object Communication and Events**	|~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
 
-> Exams
+> **Exams**
 
 Exams				|Date					|Descriptions			|Solutions
 --------------------|:---------------------:|:---------------------:|:----------:
 **The Last Army**	|**20 August 2017**		|~[Description]()~		|~[Solution]()~
 **Minedraft**		|**7 September 2017**	|~[Description]()~		|~[Solution]()~
 
-> Projects
+> **Workshop**
 
-- Workshop
+Projects			|Descriptions			|Solutions
+--------------------|:---------------------:|:----------:
+Forum App			|~[Description]()~		|~[Solution]()~
 
 ### [Resources](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources)
 
-### Exam - 22 April 2018
