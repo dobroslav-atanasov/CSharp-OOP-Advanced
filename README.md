@@ -18,27 +18,26 @@ SoftUni course CSharp OOP Advanced - March 2018: All tasks with their solutions.
 
 > **Homeworks**
 
-Tasks								| Labs																														| Exercises																															|Progress																														
-------------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------:
-**SOLID Principles**                |**[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/01.SOLID-Lab)**								|**[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/02.SOLID-Exercises)**							|![Progress](http://progressed.io/bar/100?title=completed)
-**Generics**                        |**[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/03.Generics-Lab)**							|**[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/04.Generics-Exercises)**						|![Progress](http://progressed.io/bar/100?title=completed)
-**Iterators and Comparators**       |**[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/05.IteratorsAndComparators-Lab)**			|**[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/06.IteratorsAndComparators-Exercises)**		|![Progress](http://progressed.io/bar/100?title=completed)
-**Reflection and Attributes**       |~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
-**Unit Testing**                    |~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
-**Object Communication and Events**	|~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
+Tasks							|Descriptions																					| Labs																														| Exercises																															|Progress																														
+--------------------------------|:---------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------:
+SOLID Principles             	|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources) |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/01.SOLID-Lab)									|[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/02.SOLID-Exercises)								|![Progress](http://progressed.io/bar/100?title=completed)
+Generics                    	|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources) |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/03.Generics-Lab)								|[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/04.Generics-Exercises)							|![Progress](http://progressed.io/bar/100?title=completed)
+Iterators and Comparators    	|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources) |[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/05.IteratorsAndComparators-Lab)				|[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/06.IteratorsAndComparators-Exercises)			|![Progress](http://progressed.io/bar/100?title=completed)
+Reflection and Attributes     	|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources) |[Lab]									|[Exercises]																																																	|![Progress](http://progressed.io/bar/0)
+Unit Testing                  	|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources) |[Lab]									|[Exercises]																																																	|![Progress](http://progressed.io/bar/0)
+Object Communication and Events	|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources) |[Lab]									|[Exercises]																																																	|![Progress](http://progressed.io/bar/0)
 
 > **Exams**
 
-Exams				|Date					|Descriptions			|Solutions
---------------------|:---------------------:|:---------------------:|:----------:
-**The Last Army**	|**20 August 2017**		|~[Description]()~		|~[Solution]()~
-**Minedraft**		|**7 September 2017**	|~[Description]()~		|~[Solution]()~
+Exams				|Date				|Descriptions			|Solutions
+--------------------|:-----------------:|:---------------------:|:----------:
+The Last Army		|20 August 2017		|[Description]			|[Solution]
+Minedraft			|7 September 2017	|[Description]			|[Solution]
 
 > **Workshop**
 
 Projects			|Descriptions			|Solutions
 --------------------|:---------------------:|:----------:
-Forum App			|~[Description]()~		|~[Solution]()~
+Forum App			|[Description]			|[Solution]
 
-### [Resources](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources)
 
