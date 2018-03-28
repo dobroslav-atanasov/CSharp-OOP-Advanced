@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace _01.Stealer
+public class StartUp
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Spy spy = new Spy();
+        string investigation = spy.StealFieldInfo("Hacker", "username", "password");
+        Console.WriteLine(investigation);
     }
 }
