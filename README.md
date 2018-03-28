@@ -15,6 +15,9 @@ SoftUni course CSharp OOP Advanced - March 2018: All tasks with their solutions.
 - Object Communication and Events
 
 ## Repository content:
+
+> Homeworks
+
 Tasks								| Labs																														| Exercises																															|Progress																														
 ------------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------:
 **SOLID Principles**                |**[Lab](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/01.SOLID-Lab)**								|**[Exercises](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/02.SOLID-Exercises)**							|![Progress](http://progressed.io/bar/100?title=completed)
@@ -24,15 +27,16 @@ Tasks								| Labs																														| Exercises																				
 **Unit Testing**                    |~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
 **Object Communication and Events**	|~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
 
+> Exams
+
 Exams				|Date					|Descriptions			|Solutions
 --------------------|:---------------------:|:---------------------:|:----------:
 **The Last Army**	|**20 August 2017**		|~[Description]()~		|~[Solution]()~
 **Minedraft**		|**7 September 2017**	|~[Description]()~		|~[Solution]()~
 
-- Workshop
+> Projects
 
-- Exam Preparation I: C# OOP Advance Exam 20.08.2017 - Description
-- Exam Preparation II: C# OOP Advance Exam 07.09.2017 - Description
+- Workshop
 
 ### [Resources](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources)
 
