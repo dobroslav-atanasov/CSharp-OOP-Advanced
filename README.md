@@ -24,9 +24,10 @@ Tasks								| Labs																														| Exercises																				
 **Unit Testing**                    |~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
 **Object Communication and Events**	|~[Lab]()~									|~[Exercises]()~																																																	|![Progress](http://progressed.io/bar/0)
 
-Exams	|Date		|Descriptions		|Solutions
---------|:---------:|:-------------  --:|:----------:
-**The Last Army**|**20 August 2017**|~[Description]()~|~[Solution]()~
+Exams				|Date					|Descriptions			|Solutions
+--------------------|:---------------------:|:---------------------:|:----------:
+**The Last Army**	|**20 August 2017**		|~[Description]()~		|~[Solution]()~
+**Minedraft**		|**7 September 2017**	|~[Description]()~		|~[Solution]()~
 
 - Workshop
 
