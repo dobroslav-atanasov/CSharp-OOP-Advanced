@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Box", "01.Box\01.Box.csproj", "{55F561E1-72DA-4249-A128-AC54E3117F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Box", "01.Box\01.Box.csproj", "{55F561E1-72DA-4249-A128-AC54E3117F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GenericArrayCreator", "02.GenericArrayCreator\02.GenericArrayCreator.csproj", "{1ACBDE23-291A-45AC-BD23-C3DF38B4ABB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.GenericArrayCreator", "02.GenericArrayCreator\02.GenericArrayCreator.csproj", "{1ACBDE23-291A-45AC-BD23-C3DF38B4ABB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.GenericScale", "03.GenericScale\03.GenericScale.csproj", "{833C06F2-710F-41B0-A63F-3FE7273FAC60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.GenericScale", "03.GenericScale\03.GenericScale.csproj", "{833C06F2-710F-41B0-A63F-3FE7273FAC60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
