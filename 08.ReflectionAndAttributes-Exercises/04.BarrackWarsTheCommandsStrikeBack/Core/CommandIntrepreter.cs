@@ -1,11 +1,14 @@
 ﻿namespace BarracksFactory.Core
 {
     using System;
-    using Commands;
+    using System.Linq;
+    using System.Reflection;
     using Contracts;
 
     public class CommandIntrepreter : ICommandInterpreter
     {
+        private const string Suffix = "command";
+
         private IRepository repository;
         private IUnitFactory unitFactory;
 
@@ -17,19 +20,11 @@
 
         public IExecutable InterpretCommand(string[] data, string commandName)
         {
-            switch (commandName)
-            {
-                case "add":
-                    return new AddCommand(data, this.repository, this.unitFactory);
-                case "report":
-                    return new ReportCommand(data, this.repository, this.unitFactory);
-                case "fight":
-                    return new FightCommand(data, this.repository, this.unitFactory);
-                case "retire":
-                    return new RetireCommand(data, this.repository, this.unitFactory);
-                default:
-                    throw new InvalidOperationException("Invalid command!");
-            }
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            Type type = assembly.GetTypes().FirstOrDefault(t => t.Name.ToLower() == commandName + Suffix);
+            object[] ctorParts = new object[] { data, this.repository, this.unitFactory };
+            IExecutable instance = (IExecutable) Activator.CreateInstance(type, ctorParts);
+            return instance;
         }
     }
 }

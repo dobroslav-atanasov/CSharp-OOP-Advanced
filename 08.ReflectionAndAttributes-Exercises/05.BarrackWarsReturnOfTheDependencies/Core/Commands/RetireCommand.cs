@@ -8,9 +8,10 @@
         [Inject]
         private IRepository repository;
 
-        public RetireCommand(string[] data) 
+        public RetireCommand(string[] data, IRepository repository) 
             : base(data)
         {
+            this.repository = repository;
         }
 
         public override string Execute()

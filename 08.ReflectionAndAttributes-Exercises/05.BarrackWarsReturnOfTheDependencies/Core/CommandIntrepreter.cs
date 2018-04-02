@@ -4,46 +4,36 @@
     using System.Linq;
     using System.Reflection;
     using Attributes;
-    using Commands;
     using Contracts;
 
     public class CommandIntrepreter : ICommandInterpreter
     {
-        private IRepository repository;
-        private IUnitFactory unitFactory;
+        private const string Suffix = "command";
 
-        public CommandIntrepreter(IRepository repository, IUnitFactory unitFactory)
+        private IServiceProvider serviceProvider;
+
+        public CommandIntrepreter(IServiceProvider serviceProvider)
         {
-            this.repository = repository;
-            this.unitFactory = unitFactory;
+            this.serviceProvider = serviceProvider;
         }
 
         public IExecutable InterpretCommand(string[] data, string commandName)
         {
-            string fullCommandName = char.ToUpper(commandName[0]) + commandName.Substring(1) + "Command";
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            Type type = assembly.GetTypes().FirstOrDefault(t => t.Name.ToLower() == commandName + Suffix);
 
-            Type commandType = Assembly
-                .GetExecutingAssembly()
-                .GetTypes()
-                .FirstOrDefault(c => c.Name == fullCommandName);
-
-            IExecutable instance = (IExecutable)Activator.CreateInstance(commandType, new object[] { data });
-            FieldInfo[] commandFields = instance
-                .GetType()
+            FieldInfo[] fieldsToInject = type
                 .GetFields(BindingFlags.Instance | BindingFlags.NonPublic)
-                .Where(f => f.GetCustomAttributes(typeof(InjectAttribute)) != null)
+                .Where(f => f.CustomAttributes.Any(a => a.AttributeType == typeof(InjectAttribute)))
                 .ToArray();
 
-            FieldInfo[] interpreterFields = this.GetType().GetFields(BindingFlags.Instance | BindingFlags.NonPublic);
+            object[] injectArgs = fieldsToInject
+                .Select(f => this.serviceProvider.GetService(f.FieldType))
+                .ToArray();
 
-            foreach (FieldInfo field in commandFields)
-            {
-                if (interpreterFields.Any(i => i.FieldType == field.FieldType))
-                {
-                    field.SetValue(instance, interpreterFields.First(i => i.FieldType == field.FieldType).GetValue(this));
-                }
-            }
+            object[] ctorArgs = new object[] { data }.Concat(injectArgs).ToArray();
 
+            IExecutable instance = (IExecutable)Activator.CreateInstance(type, ctorArgs);
             return instance;
         }
     }

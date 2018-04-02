@@ -13,7 +13,7 @@
         public override string Execute()
         {
             Environment.Exit(0);
-            return string.Empty;
+            return null;
         }
     }
 }

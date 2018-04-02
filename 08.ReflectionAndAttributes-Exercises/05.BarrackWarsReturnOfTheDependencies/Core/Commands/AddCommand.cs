@@ -6,13 +6,15 @@
     public class AddCommand : Command
     {
         [Inject]
-        private IUnitFactory unitFactory;
-        [Inject]
         private IRepository repository;
+        [Inject]
+        private IUnitFactory unitFactory;
 
-        public AddCommand(string[] data) 
+        public AddCommand(string[] data, IRepository repository, IUnitFactory unitFactory) 
             : base(data)
         {
+            this.repository = repository;
+            this.unitFactory = unitFactory;
         }
 
         public override string Execute()

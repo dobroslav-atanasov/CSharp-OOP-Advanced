@@ -5,13 +5,11 @@
 
     class Engine : IRunnable
     {
-        private IRepository repository;
-        private IUnitFactory unitFactory;
+        private ICommandInterpreter commandInterpreter;
 
-        public Engine(IRepository repository, IUnitFactory unitFactory)
+        public Engine(ICommandInterpreter commandInterpreter)
         {
-            this.repository = repository;
-            this.unitFactory = unitFactory;
+            this.commandInterpreter = commandInterpreter;
         }
 
         public void Run()
@@ -23,9 +21,7 @@
                     string input = Console.ReadLine();
                     string[] data = input.Split();
                     string commandName = data[0];
-
-                    ICommandInterpreter commandInterpreter = new CommandIntrepreter(this.repository, this.unitFactory);
-                    IExecutable command = commandInterpreter.InterpretCommand(data, commandName);
+                    IExecutable command = this.commandInterpreter.InterpretCommand(data, commandName);
 
                     Console.WriteLine(command.Execute());
                 }

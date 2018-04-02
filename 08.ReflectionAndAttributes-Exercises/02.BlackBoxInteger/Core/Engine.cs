@@ -16,6 +16,8 @@ public class Engine
     public void Run()
     {
         Type classType = typeof(BlackBoxInteger);
+        FieldInfo field = classType.GetField("innerValue", BindingFlags.Instance | BindingFlags.NonPublic);
+        MethodInfo[] methods = classType.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic);
         BlackBoxInteger instance = (BlackBoxInteger)Activator.CreateInstance(classType, true);
 
         string input = this.reader.ReadLine();
@@ -25,11 +27,9 @@ public class Engine
             string methodName = parts[0];
             int number = int.Parse(parts[1]);
 
-            MethodInfo method = classType.GetMethod(methodName, BindingFlags.Instance | BindingFlags.NonPublic);
-            method.Invoke(instance, new object[] { number });
-
-            string value = classType.GetFields(BindingFlags.Instance | BindingFlags.NonPublic).First().GetValue(instance).ToString();
-            this.writer.WriteLine(value);
+            MethodInfo method = methods.First(m => m.Name == methodName);
+            method.Invoke(instance, new object[] {number});
+            this.writer.WriteLine(field.GetValue(instance).ToString());
 
             input = this.reader.ReadLine();
         }

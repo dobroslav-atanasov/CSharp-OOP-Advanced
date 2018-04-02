@@ -8,9 +8,10 @@
         [Inject]
         private IRepository repository;
 
-        public ReportCommand(string[] data) 
+        public ReportCommand(string[] data, IRepository repository) 
             : base(data)
         {
+            this.repository = repository;
         }
 
         public override string Execute()

@@ -9,10 +9,24 @@
     {
         public IUnit CreateUnit(string unitType)
         {
-            Type type = Type.GetType($"BarracksFactory.Models.Units.{unitType}");
-            IUnit instance = (IUnit)Activator.CreateInstance(type);
+            string unitsNamespace = Assembly
+                .GetExecutingAssembly()
+                .GetTypes()
+                .Select(n => n.Namespace)
+                .Distinct()
+                .Where(n => n != null)
+                .FirstOrDefault(u => u.Contains("Models"));
+
+            Type type = Type.GetType($"{unitsNamespace}.{unitType}");
+            IUnit instance = (IUnit) Activator.CreateInstance(type);
 
             return instance;
+
+            //Second Option:
+            //Type type = Type.GetType($"BarracksFactory.Models.Units.{unitType}");
+            //IUnit instance = (IUnit)Activator.CreateInstance(type);
+
+            //return instance;
         }
     }
 }
