@@ -36,8 +36,8 @@ Minedraft			|7 September 2017	|[Description]			|[Solution]
 
 > **Workshop**
 
-Projects			|Descriptions			|Solutions
---------------------|:---------------------:|:----------:
-Forum App			|[Description]			|[Solution]
+Projects			|Descriptions																									|Solutions
+--------------------|:-------------------------------------------------------------------------------------------------------------:|:----------:
+Forum App			|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources/Workshop)		|[Solution]
 
 
