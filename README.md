@@ -29,9 +29,9 @@ Object Communication and Events	|[Description](https://github.com/dobroslav-atan
 
 > **Exams**
 
-Exams				|Date				|Descriptions			|Solutions
---------------------|:-----------------:|:---------------------:|:----------:
-The Last Army		|20 August 2017		|[Description]			|[Solution]
+Exams				|Date				|Descriptions																											|Solutions
+--------------------|:-----------------:|:---------------------------------------------------------------------------------------------------------------------:|:----------:
+The Last Army		|20 August 2017		|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources/Exam-20.08.2017)			|[Solution]
 Minedraft			|7 September 2017	|[Description]			|[Solution]
 
 > **Workshop**
