@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Minedraft</RootNamespace>
+    <AssemblyName>Minedraft</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\DayCommand.cs" />
+    <Compile Include="Commands\InspectCommand.cs" />
+    <Compile Include="Commands\ModeCommand.cs" />
+    <Compile Include="Commands\RegisterCommand.cs" />
+    <Compile Include="Commands\RepairCommand.cs" />
+    <Compile Include="Commands\ShutdownCommand.cs" />
+    <Compile Include="Constants\Constants.cs" />
+    <Compile Include="Core\CommandInterpreter.cs" />
+    <Compile Include="Core\EnergyRepository.cs" />
+    <Compile Include="Core\Engine.cs" />
+    <Compile Include="Core\HarvesterController.cs" />
+    <Compile Include="Core\ProviderController.cs" />
+    <Compile Include="Entities\Harvesters\HammerHarvester.cs" />
+    <Compile Include="Entities\Harvesters\Harvester.cs" />
+    <Compile Include="Entities\Harvesters\InfinityHarvester.cs" />
+    <Compile Include="Entities\Harvesters\SonicHarvester.cs" />
+    <Compile Include="Entities\Harvesters\StandartHarvester.cs" />
+    <Compile Include="Entities\Providers\PressureProvider.cs" />
+    <Compile Include="Entities\Providers\Provider.cs" />
+    <Compile Include="Entities\Providers\SolarProvider.cs" />
+    <Compile Include="Entities\Providers\StandartProvider.cs" />
+    <Compile Include="Factrories\HarvesterFactory.cs" />
+    <Compile Include="Factrories\ProviderFactory.cs" />
+    <Compile Include="Interfaces\Core\ICommand.cs" />
+    <Compile Include="Interfaces\Core\ICommandInterpreter.cs" />
+    <Compile Include="Interfaces\Core\IController.cs" />
+    <Compile Include="Interfaces\Core\IEnergyRepository.cs" />
+    <Compile Include="Interfaces\Core\IEngine.cs" />
+    <Compile Include="Interfaces\Core\IHarvesterController.cs" />
+    <Compile Include="Interfaces\Core\IProviderController.cs" />
+    <Compile Include="Interfaces\Entities\IEntity.cs" />
+    <Compile Include="Interfaces\Entities\IHarvester.cs" />
+    <Compile Include="Interfaces\Entities\IProvider.cs" />
+    <Compile Include="Interfaces\Factories\IHarvesterFactory.cs" />
+    <Compile Include="Interfaces\Factories\IProviderFactory.cs" />
+    <Compile Include="Interfaces\IO\IReader.cs" />
+    <Compile Include="Interfaces\IO\IWriter.cs" />
+    <Compile Include="IO\Writer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IO\Reader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

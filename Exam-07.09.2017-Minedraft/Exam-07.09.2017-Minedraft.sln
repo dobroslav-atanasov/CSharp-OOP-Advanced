@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minedraft", "Minedraft\Minedraft.csproj", "{E3A39029-2F80-4777-B763-58C4CB8F41AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minedraft", "Minedraft\Minedraft.csproj", "{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E3A39029-2F80-4777-B763-58C4CB8F41AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3A39029-2F80-4777-B763-58C4CB8F41AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3A39029-2F80-4777-B763-58C4CB8F41AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3A39029-2F80-4777-B763-58C4CB8F41AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
