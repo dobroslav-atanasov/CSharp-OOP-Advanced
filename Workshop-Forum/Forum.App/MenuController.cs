@@ -22,22 +22,9 @@
             this.InitializeSession();
         }
 
-        //This part has to delete!!!!!!!!!!!!!1
-        //public MenuController(ILabelFactory labelFactory, IForumViewEngine viewEngine)
-        //{
-        //    this.viewEngine = viewEngine;
-
-        //    this.CurrentMenu = new MainMenu(null, labelFactory, null);
-        //    this.RenderCurrentView();
-        //}
-
         private string Username { get; set; }
 
-        //Replace CurrentMenu with this after implementing Session
         private IMenu CurrentMenu => this.session.CurrentMenu;
-
-        //This part has to delete!!!!!!!!!!!!
-        //private IMenu CurrentMenu { get; }
 
         private void InitializeSession()
         {
