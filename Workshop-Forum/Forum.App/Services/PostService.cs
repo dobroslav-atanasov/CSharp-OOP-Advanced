@@ -6,7 +6,7 @@
     using Contracts;
     using Data;
     using DataModels;
-    using Views;
+    using ViewModels;
 
     public class PostService : IPostService
     {
