@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minedraft", "Minedraft\Minedraft.csproj", "{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minedraft.Tests", "Minedraft.Tests\Minedraft.Tests.csproj", "{6A080B4C-E39A-4FA5-8A04-8FBF82A9864E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minedraft.Tests", "Minedraft.Tests\Minedraft.Tests.csproj", "{6A080B4C-E39A-4FA5-8A04-8FBF82A9864E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
