@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minedraft", "Minedraft\Minedraft.csproj", "{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minedraft.Tests", "Minedraft.Tests\Minedraft.Tests.csproj", "{6A080B4C-E39A-4FA5-8A04-8FBF82A9864E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB399D0-1353-4FF9-9BE9-18BD3BAF1AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A080B4C-E39A-4FA5-8A04-8FBF82A9864E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A080B4C-E39A-4FA5-8A04-8FBF82A9864E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A080B4C-E39A-4FA5-8A04-8FBF82A9864E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A080B4C-E39A-4FA5-8A04-8FBF82A9864E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
