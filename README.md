@@ -33,7 +33,7 @@ Exams				|Date				|Descriptions																											|Solutions
 --------------------|:-----------------:|:---------------------------------------------------------------------------------------------------------------------:|:----------:
 The Last Army		|20 August 2017		|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources/Exam-20.08.2017)			|[Solution](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Exam-20.08.2017-LastArmy)
 Minedraft			|7 September 2017	|[Description](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Resources/Exam-07.09.2017)			|[Solution](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Exam-07.09.2017-Minedraft)
-Festival Manager	|22 April 2018		|[Description]			|[Solution]
+Festival Manager	|22 April 2018		|[Description]			|[Solution](https://github.com/dobroslav-atanasov/CSharp-OOP-Advanced/tree/master/Exam-22.04.2018-FestivalManager)
 
 > **Workshop**
 
